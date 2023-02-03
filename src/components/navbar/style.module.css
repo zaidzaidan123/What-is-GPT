@@ -1,0 +1,115 @@
+.gpt_navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.gpt_navBar_links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.gpt_navBar_links_logo {
+  margin-right: 2rem;
+}
+.gpt_navBar_links_logo img {
+  width: 62.56px;
+  height: 16.02px;
+}
+.gpt_navBar_links_container {
+  display: flex;
+  align-items: center;
+}
+.gpt_navBar_sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.gpt_navBar_links_container p,
+.gpt_navBar_sign p,
+.gpt_navBar_Menu_container p {
+  color: #fff;
+  display: flex;
+  margin: 0 2.125rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  cursor: pointer;
+  align-items: center;
+}
+.gpt_navBar_Menu {
+  display: none;
+  margin-left: 2rem;
+  position: relative;
+}
+.gpt_navBar_Menu svg {
+  cursor: pointer;
+}
+.gpt_navBar_Menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.gpt_navBar_sign button,
+.gpt_navBar_Menu_container button {
+  padding: 16px 43.98px 17px 45.02px;
+  background: #ff4820;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: 0;
+  outline: 0;
+}
+.gpt_navBar_Menu_container_links p {
+  margin: 2rem 0;
+}
+.gpt_navBar_sign_menu{
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .gpt_navBar_links_container {
+    display: none;
+  }
+  .gpt_navBar_Menu {
+    display: flex;
+  }
+}
+@media screen and (max-width: 700px) {
+  .gpt_navBar {
+    padding: 2rem 1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+    .gpt_navBar {
+      padding: 2rem;
+    }
+    .gpt_navBar_sign{
+        display: none;
+    }
+    .gpt_navBar_sign_menu{
+        display: block;
+    }
+    .gpt_navBar_sign_menu button{
+        padding: 1rem 2rem;
+    }
+        
+  }
