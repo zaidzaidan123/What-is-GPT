@@ -15,7 +15,7 @@ const NavBar = () => {
           {links.map((item) => {
             return (
               <p>
-                <a href={item}>{item}</a>
+                <a href={"#"+item}>{item}</a>
               </p>
             );
           })}

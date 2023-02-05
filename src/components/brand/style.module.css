@@ -1,0 +1,20 @@
+.section_padding {
+  padding: 4rem 6rem;
+}
+.gpt_brand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.gpt_brand div {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+}
+
+
+  

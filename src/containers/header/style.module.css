@@ -1,6 +1,5 @@
 .gpt_header {
   display: flex;
-  height: 100vh;
 }
 .gpt_header_content {
   flex: 1;
@@ -96,14 +95,14 @@
 }
 .gpt_header_pic {
   width: 50%;
-  height: 80%;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .gpt_header_pic img {
   width: 100%;
-  height: 90%;
+  height: 100%;
 }
 @media screen and (max-width: 1050px) {
   .gpt_header {
